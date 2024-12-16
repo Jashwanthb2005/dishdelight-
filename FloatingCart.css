@@ -1,0 +1,35 @@
+.floating-order-card {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    z-index: 1000;
+  }
+  
+  .order-items {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .order-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .quantity-controls button {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+  }
+  
+  .quantity-controls span {
+    display: inline-block;
+    min-width: 24px;
+    text-align: center;
+  }
+  
